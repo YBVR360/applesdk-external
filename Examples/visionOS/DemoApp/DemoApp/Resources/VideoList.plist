@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>experience</key>
+		<string>single-view</string>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Control Room</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/vod/OnBoarding-2026/CR/onboarding_crv2_lib264_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>experience</key>
+		<string>immersive</string>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>180°</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/vod/OnBoarding-2026/180-1/onboarding_180_1_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>experience</key>
+		<string>immersive</string>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>180° x2</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/vod/OnBoarding-2026/180-2/onboarding_180_2_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>experience</key>
+		<string>immersive</string>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>360°</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/vod/OnBoarding-2026/360/onboarding_360__signalling_v4.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>"clearkey" video</string>
+		<key>url</key>
+		<string>https://dev.origin.ybvr.com/streaming/vod/169234610410916/169234610410916.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>DRM Test</string>
+		<key>url</key>
+		<string>https://dev.origin.ybvr.com/streaming/vod/177756005426483/fairplay_r30.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Sergio Test</string>
+		<key>url</key>
+		<string>https://dev.origin.ybvr.com/streaming/vod/178410086028459/test_mv_hevc_18_nvenc.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Axinom DRM Test</string>
+		<key>signalingVersion</key>
+		<string>ns_flat_mono</string>
+		<key>url</key>
+		<string>https://media.axprod.net/TestVectors/Hls/protected_hls_1080p_h264_singlekey/manifest.m3u8</string>
+	</dict>
+	<dict>
+		<key>New item</key>
+		<string></string>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Shatka https</string>
+		<key>url</key>
+		<string>https://r30-1-cpu.origin.ybvr.com/YBVR/LIVE/live.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<true/>
+		<key>name</key>
+		<string>Live Dan</string>
+		<key>url</key>
+		<string>https://r29-1-test-aws-cpu.origin.ybvr.com/YBVR/LIVE/live.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<true/>
+		<key>name</key>
+		<string>Live multi-audio Signaling v4</string>
+		<key>url</key>
+		<string>https://r29-1-test-aws-cpu.origin.ybvr.com/YBVR/LIVE/live_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>External Video 1</string>
+		<key>signalingVersion</key>
+		<string>ns_flat_mono</string>
+		<key>url</key>
+		<string>https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>external with subtitles</string>
+		<key>signalingVersion</key>
+		<string>ns_flat_mono</string>
+		<key>url</key>
+		<string>https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Signaling v2 - euroleague</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/1773834676221928/cm32_mono_h264_multiaudio_multisubs.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Signaling v2 - cr</string>
+		<key>url</key>
+		<string>https://dev.origin.ybvr.com/streaming/vod/177202249323892/cr2_v4_3.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Signaling v4 - cr</string>
+		<key>url</key>
+		<string>https://dev.origin.ybvr.com/streaming/vod/177202249323892/cr2_v4_3_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Signaling v2 - multicam</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/test-2x180-1x360-1xcroom/multicam.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Signaling v4 - multicam</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/test-2x180-1x360-1xcroom/multicam_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Signaling v4 - euroleague</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/1773834676221928/cm32_mono_h264_multiaudio_multisubs_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Signaling v4 - Ballet SF</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/1774865345229213/ballet_180_stereo_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Euroleague multi-cam</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/euroliga/F4-2022_final/multicam.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>CR 18 cams</string>
+		<key>url</key>
+		<string>https://dev.origin.ybvr.com/streaming/vod/CR18/176001551816460.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>croom v1 con json actualizado</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/euroliga/2023/RM-FCB-26Jan23_3mn/multicam.m3u8</string>
+	</dict>
+	<dict>
+		<key>forcedGeometryId</key>
+		<string>13</string>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Fisheye 2</string>
+		<key>signalingVersion</key>
+		<string>v2</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/tests/fisheyes/uefa-sample-10mm-fisheye/174532196735251.m3u8</string>
+	</dict>
+	<dict>
+		<key>forcedGeometryId</key>
+		<string>13</string>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Fisheye low latency</string>
+		<key>signalingVersion</key>
+		<string>v3</string>
+		<key>url</key>
+		<string>https://test-xms-backend.ybvr.com/uploads/lives/lowlatency/event17497.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>180 + 360 + CR</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/test-1x180-1x360-1xcroom/multicam.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>2 x 180 + 2 x 360 + CR</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/test-2x180-2x360-1xcroom/multicam.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>2 x 180 + 360</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/test-2x180-1x360/multicam.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<true/>
+		<key>isTimeShiftingAllowed</key>
+		<true/>
+		<key>name</key>
+		<string>Timeshift Local</string>
+		<key>signalingVersion</key>
+		<string>ns_flat_mono</string>
+		<key>url</key>
+		<string>http://localhost:8080/hls/stream.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>3 x 180</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/test-3x180-1xcroom/multicam.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>4 x 180</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/test-4x180-1xcroom/multicam.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>360 + CR</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/test-1x360-1xcroom/multicam.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Control room v1</string>
+		<key>url</key>
+		<string>https://config.ybvr.com/content/streaming/low-latency/content_dev_cr.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Control room v2 (8 cams)</string>
+		<key>url</key>
+		<string>https://config.ybvr.com/content/streaming/low-latency/content_dev_crv2.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Control room v1 Signalingv3</string>
+		<key>signalingVersion</key>
+		<string>v3</string>
+		<key>url</key>
+		<string>https://config.ybvr.com/content/streaming/low-latency/content_dev_cr_v3.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Control room v2 Signalingv3</string>
+		<key>signalingVersion</key>
+		<string>v3</string>
+		<key>url</key>
+		<string>https://config.ybvr.com/content/streaming/low-latency/content_dev_cr2_v3.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Broken signaling</string>
+		<key>url</key>
+		<string>https://config.ybvr.com/content/streaming/low-latency/broken_content_qa.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>LL Ingest CR</string>
+		<key>url</key>
+		<string>https://config.ybvr.com/content/streaming/low-latency/event233.json</string>
+	</dict>
+	<dict>
+		<key>forcedGeometryId</key>
+		<string>13</string>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Fisheye</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/tests/fisheyes/psg-sample-12-5mm-fisheye/174532071135241.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>APMP AIV</string>
+		<key>signalingVersion</key>
+		<string>ns_apmp_aiv</string>
+		<key>url</key>
+		<string>https://devstreaming-cdn.apple.com/videos/streaming/examples/immersive-media/apple-immersive-video/primary.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>APMP WFoV</string>
+		<key>signalingVersion</key>
+		<string>ns_apmp_wfov</string>
+		<key>url</key>
+		<string>https://devstreaming-cdn.apple.com/videos/streaming/examples/immersive-media/wfovCausewayWalk/mvp.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>APMP 360</string>
+		<key>signalingVersion</key>
+		<string>ns_apmp_360</string>
+		<key>url</key>
+		<string>https://devstreaming-cdn.apple.com/videos/streaming/examples/immersive-media/360Lighthouse/mvp.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>APMP 180 Stereo</string>
+		<key>signalingVersion</key>
+		<string>ns_apmp_180</string>
+		<key>url</key>
+		<string>https://devstreaming-cdn.apple.com/videos/streaming/examples/immersive-media/180Lighthouse/mvp.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>APMP Spatial</string>
+		<key>signalingVersion</key>
+		<string>ns_apmp_spatial</string>
+		<key>url</key>
+		<string>https://devstreaming-cdn.apple.com/videos/streaming/examples/immersive-media/spatialLighthouseFlowersWaves/mvp.m3u8</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>flat</string>
+		<key>url</key>
+		<string>https://test.origin.ybvr.com/streaming/vod/1770307956202330/1770307956202330.m3u8</string>
+	</dict>
+</array>
+</plist>
