@@ -46,10 +46,27 @@ import YBVRAppleSDK
 ## Documentation
 
 The API reference and guides are at
-[ybvr360.github.io/AppleSDK](https://ybvr360.github.io/AppleSDK/).
+[ybvr360.github.io/applesdk-external](https://ybvr360.github.io/applesdk-external/),
+with the visionOS reference at
+[ybvr360.github.io/applesdk-external/visionos](https://ybvr360.github.io/applesdk-external/visionos/).
+They describe the latest release. Each release also includes its documentation in
+`docs/`.
 
 ## Examples
 
 `Examples/` contains demo apps for iOS and visionOS. They use the package from
-this repository, so open `Examples/iOS/DemoApp/DemoApp.xcodeproj` or
-`Examples/visionOS/DemoApp/DemoApp.xcodeproj` in Xcode and run.
+this repository, so clone it and open a demo app in Xcode:
+
+```sh
+git clone https://github.com/YBVR360/applesdk-external
+open applesdk-external/Examples/iOS/DemoApp/DemoApp.xcodeproj
+```
+
+For visionOS, open `Examples/visionOS/DemoApp/DemoApp.xcodeproj` instead.
+
+Open the demo apps from a clone, not from the copy Xcode downloads when you add
+the package to your app. Xcode keeps that copy read-only, so it reports that
+`project.xcworkspace` could not be unlocked.
+
+To run a demo app on a device, select your own team under **Signing &
+Capabilities**.
