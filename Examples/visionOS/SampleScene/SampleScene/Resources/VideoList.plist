@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>Control Room</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/vod/OnBoarding-2026/CR/onboarding_crv2_lib264_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>180°</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/vod/OnBoarding-2026/180-1/onboarding_180_1_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>180° x2</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/vod/OnBoarding-2026/180-2/onboarding_180_2_signaling_v4.json</string>
+	</dict>
+	<dict>
+		<key>isLive</key>
+		<false/>
+		<key>name</key>
+		<string>360°</string>
+		<key>url</key>
+		<string>https://europe-cdn.origin.ybvr.com/streaming/vod/OnBoarding-2026/360/onboarding_360__signalling_v4.json</string>
+	</dict>
+</array>
+</plist>
