@@ -54,19 +54,24 @@ They describe the latest release. Each release also includes its documentation i
 
 ## Examples
 
-`Examples/` contains demo apps for iOS and visionOS. They use the package from
-this repository, so clone it and open a demo app in Xcode:
+`Examples/` contains the Sample Scene app for iOS and visionOS. It uses the
+package from this repository, so clone it and open the app in Xcode:
 
 ```sh
 git clone https://github.com/YBVR360/applesdk-external
-open applesdk-external/Examples/iOS/DemoApp/DemoApp.xcodeproj
+open applesdk-external/Examples/iOS/SampleScene/SampleScene-iOS.xcodeproj
 ```
 
-For visionOS, open `Examples/visionOS/DemoApp/DemoApp.xcodeproj` instead.
+For visionOS, open `Examples/visionOS/SampleScene/SampleScene-VisionOS.xcodeproj`
+instead.
 
-Open the demo apps from a clone, not from the copy Xcode downloads when you add
-the package to your app. Xcode keeps that copy read-only, so it reports that
+Open the app from a clone, not from the copy Xcode downloads when you add the
+package to your app. Xcode keeps that copy read-only, so it reports that
 `project.xcworkspace` could not be unlocked.
 
-To run a demo app on a device, select your own team under **Signing &
-Capabilities**.
+To run the app on a device:
+
+1. Select your own team under **Signing & Capabilities**.
+2. Set `BUNDLE_ID` in `Examples/SampleScene.xcconfig` to a bundle identifier of
+   your own. The one it ships with belongs to YBVR, so Xcode can't sign it for
+   your team.
